@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { background-color: #f0f0f0; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+  .card { background-color: lightyellow; border: 5px double gold; border-radius: 20px; width: 300px; padding: 25px; text-align: center; font-family: Arial, sans-serif; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+  .name { color: darkgreen; font-size: 28px; margin: 10px 0; }
+  .info { font-size: 18px; color: #333; margin: 5px 0; }
+  .btn { background-color: #27ae60; color: white; padding: 12px 20px; border-radius: 50px; text-decoration: none; display: inline-block; margin-top: 15px; font-weight: bold; }
+  img { border-radius: 50%; width: 120px; height: 120px; border: 3px solid #2c3e50; object-fit: cover; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://i.postimg.cc/kX8yN28n/drink.jpg" alt="Binna">
+    <h1 class="name">BINNA</h1>
+    <p class="info">📍 Location:,india</p>
+    <p class="info">🎓 Study: 10th Standard</p>
+    <a href="tel:91xxxxxxx685" class="btn">📞 Click to Call</a>
+  </div>
+</body>
+</html>
+`
