@@ -4,26 +4,29 @@
   <title>My Digital Card</title>
   <style>
     body { background-color: #f0f0f0; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; font-family: Arial, sans-serif; }
-    .card { background-color: lightyellow; border-radius: 15px; padding: 20px; text-align: center; width: 300px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    .profile-img { border-radius: 50%; width: 120px; height: 120px; object-fit: cover; border: 3px solid #fff; }
-    .name { color: darkgreen; font-size: 28px; margin: 10px 0; }
-    .info { font-size: 18px; color: #333; margin: 5px 0; }
-    .btn { display: block; width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; text-decoration: none; font-weight: bold; color: white; }
+    .card { background-color: lightyellow; border-radius: 15px; padding: 25px; text-align: center; width: 300px; box-shadow: 0 8px 16px rgba(0,0,0,0.2); }
+    .profile-img { border-radius: 50%; width: 150px; height: 150px; object-fit: cover; border: 4px solid #fff; margin-bottom: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .name { color: darkgreen; font-size: 28px; margin: 10px 0; font-weight: bold; }
+    .info { font-size: 18px; color: #333; margin: 8px 0; }
+    .btn { display: block; width: 100%; padding: 12px; margin: 10px 0; border-radius: 8px; text-decoration: none; font-weight: bold; color: white; box-sizing: border-box; font-size: 16px; }
     .call-btn { background-color: #2ecc71; }
     .email-btn { background-color: #e74c3c; }
-    .sai-btn { background-color: #FFD700; color: black; }
+    .memory { font-size: 13px; font-style: italic; margin-top: 20px; color: #555; border-top: 1px solid #ddd; padding-top: 10px; }
   </style>
 </head>
 <body>
   <div class="card">
     <img src="https://raw.githubusercontent.com/saikrishna555-web2026/my-card/main/saibaba.jpg" class="profile-img" alt="Sai Baba">
+    
     <h1 class="name">BINNA</h1>
     <p class="info">📍 Location: India</p>
     <p class="info">🎓 Study: 10th Standard</p>
+    
     <a href="tel:YOUR_NUMBER" class="btn call-btn">📞 Call Me</a>
     <a href="mailto:YOUR_EMAIL" class="btn email-btn">📧 Email Me</a>
-    <a href="sai.html" class="btn sai-btn">🙏 Visit Sai Baba Page</a>
-    <p style="font-size: 12px; font-style: italic;">In loving memory of my beloved Parents (2010) 🙏</p>
+    
+    <p class="memory">In loving memory of my beloved Parents (2010) 🙏</p>
   </div>
-</body> </head>
+</body>
 </html>
+```
