@@ -5,26 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Binna Profile</title>
     <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f2f5; }
-        .card { background: white; padding: 40px 30px; border-radius: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); text-align: center; width: 300px; border-top: 8px solid #25D366; }
-        h2 { color: #1c1e21; margin-bottom: 30px; font-size: 35px; font-weight: bold; letter-spacing: 1px; }
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            background: linear-gradient(45deg, #FF9a9e 0%, #Fad0c4 99%, #Fad0c4 100%); /* అందమైన పింక్ కలర్ */
+        }
+        .card { 
+            background: white; 
+            padding: 40px 30px; 
+            border-radius: 30px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2); 
+            text-align: center; 
+            width: 280px;
+            border: 5px solid #FF6B6B;
+        }
+        h2 { 
+            color: #FF6B6B; 
+            margin-bottom: 30px; 
+            font-size: 38px; 
+            font-weight: bold;
+            text-transform: uppercase;
+        }
         .btn-container { display: flex; flex-direction: column; gap: 15px; }
-        .btn { text-decoration: none; padding: 15px; border-radius: 12px; color: white; font-weight: bold; font-size: 16px; display: block; transition: 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        .call-btn { background-color: #2ecc71; }
-        .wa-btn { background-color: #e74c3c; }
-        .mail-btn { background-color: #3498db; }
-        .btn:hover { opacity: 0.9; transform: translateY(-2px); }
+        .btn { 
+            text-decoration: none; 
+            padding: 15px; 
+            border-radius: 50px; 
+            color: white; 
+            font-weight: bold; 
+            font-size: 16px; 
+            display: block; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .call-btn { background: linear-gradient(to right, #2ecc71, #27ae60); }
+        .wa-btn { background: linear-gradient(to right, #FF416C, #FF4B2B); }
+        .mail-btn { background: linear-gradient(to right, #4facfe, #00f2fe); }
     </style>
 </head>
 <body>
     <div class="card">
         <h2>Binna</h2>
         <div class="btn-container">
-            <a href="tel:+918121403685" class="btn call-btn">📞 Call Me</a>
-            <a href="https://wa.me/918121403685" class="btn wa-btn">💬 WhatsApp</a>
-            <a href="mailto:saikrishnabina@gmail.com" class="btn mail-btn">✉️ Email Me</a>
+            <a href="tel:+918121403685" class="btn call-btn">📞 CALL ME</a>
+            <a href="https://wa.me/918121403685" class="btn wa-btn">💬 WHATSAPP</a>
+            <a href="mailto:saikrishnabina@gmail.com" class="btn mail-btn">✉️ EMAIL ME</a>
         </div>
     </div>
 </body>
 </html>
-
